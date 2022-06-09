@@ -58,8 +58,8 @@
 
 ## GitHub Pages
 
-23. Sube el repositorio a GitHub (Añade aquí la url) y activa el hosting (GitHub Pages)(Añade aquí la url). Selecciona la carpeta docs como inicio
+23. Sube el repositorio a GitHub (https://github.com/iesgrancapitan-eed/exud4junio2022-Antoniocb3) y activa el hosting (GitHub Pages)(https://iesgrancapitan-eed.github.io/exud4junio2022-Antoniocb3/com/antonio/examen/junio/package-summary.html). Selecciona la carpeta docs como inicio
 
 ## BitBucket
 
-24. Crea en tu servidor Bitbucket una copia del repositorio actual. Añade aquí la url para que al menos yo pueda verla (mlmagarin@iesgrancapitan.org). El mismo repositorio ha de estar en ambos servidores 
+24. Crea en tu servidor Bitbucket una copia del repositorio actual. Añade aquí la url para que al menos yo pueda verla (mlmagarin@iesgrancapitan.org). (https://bitbucket.org/antoniocb03/exud4junio/src/main/) El mismo repositorio ha de estar en ambos servidores 
