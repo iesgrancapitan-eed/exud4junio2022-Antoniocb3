@@ -1,50 +1,98 @@
 package com.antonio.examen.junio;
 
-
-class Bike {  
+/**
+ * Clase bicicleta con los atributos "speed" y "gear"
+ * 
+ * @author Antonio Carmona Bascon
+ *
+ */
+class Bike implements Vehicle {  
+  /**
+  * Velocidad
+  */
   private int speed;
+  /**
+   * Marcha
+   */
   private int gear;
     
-  public void changeGear(int newGear){     
+  /**
+   * Cambiar la marcha
+   */
+  @Override
+public void changeGear(int newGear){     
       setGear(newGear);
   }
     
-  
-  public void speedUp(int increment){
+  /**
+   * Incrementar la velocidad
+   */
+  @Override
+public void speedUp(int increment){
       setSpeed(getSpeed() + increment);
   }
     
-  public void applyBrakes(int decrement){     
+  /**
+   * Decrepemtar la velocidad
+   */
+  @Override
+public void applyBrakes(int decrement){     
       setSpeed(getSpeed() - decrement);
   }
     
-  public void printStates() {
+  /**
+   * Imprimir por pantalla la velocidad y la marcha
+   */
+  @Override
+public void printStates() {
       System.out.println("speed: " + getSpeed()
           + " gear: " + getGear());
   }
 
 
+  /**
+   * Devuelve la velocidad y la marcha de la bicicleta
+   */
 @Override
 public String toString() {
 	return "Bike [speed=" + getSpeed() + ", gear=" + getGear() + "]";
 }
 
 
+/**
+ *  Nos proporciona la velocidad
+ *  
+ * @return speed velocidad
+ */
 int getSpeed() {
 	return speed;
 }
 
 
+/**
+ * Nos devuelve la velocidad
+ * 
+ * @param speed velocidad
+ */
 void setSpeed(int speed) {
 	this.speed = speed;
 }
 
 
+/**
+ * Nos proporciona la marcha
+ * 
+ * @return gear marcha
+ */
 int getGear() {
 	return gear;
 }
 
-
+/**
+ * Nos devuelve la marcha
+ * 
+ * @param gear marcha
+ */
 void setGear(int gear) {
 	this.gear = gear;
 }
