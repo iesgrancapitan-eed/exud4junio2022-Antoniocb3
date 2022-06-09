@@ -64,8 +64,4 @@
 
 24. Crea en tu servidor Bitbucket una copia del repositorio actual. Añade aquí la url para que al menos yo pueda verla (mlmagarin@iesgrancapitan.org). (https://bitbucket.org/antoniocb03/exud4junio/src/main/) El mismo repositorio ha de estar en ambos servidores 
 
-URL Repositorio: https://github.com/iesgrancapitan-eed/exud4junio2022-Antoniocb3
 
-URL GitHub Pages: https://iesgrancapitan-eed.github.io/exud4junio2022-Antoniocb3/com/antonio/examen/junio/package-summary.html
-
-URL Bitbucket: https://bitbucket.org/antoniocb03/exud4junio/src/main/
