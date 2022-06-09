@@ -25,6 +25,8 @@
 
 11. Añade el diálogo de la refactorización con todo debidamente marcado
 
+![img1](img1.PNG)
+
 12. Realiza un commit con el mensaje apropiado
 
 13. Extrae el interfaz "Vehicle" a partir de la clase "Bike". Incluye todos los métodos menos toString
